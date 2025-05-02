@@ -1,0 +1,56 @@
+main {
+    padding: 100px 0px;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #fff;
+    align-items: center;
+}
+
+.video-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.video-item {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.video-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-item p.vid_title {
+    color: #222;
+    font-size: 16px;
+    margin: 15px;
+    text-align: center;
+}
+
+iframe, video {
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.video-item p {
+    font-size: 0.9rem;
+    color: #888;
+    text-align: center;
+    margin: 10px;
+}
+
+.video-item .video-thumbnail {
+    border-radius: 8px;
+}

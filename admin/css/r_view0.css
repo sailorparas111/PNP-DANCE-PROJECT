@@ -1,0 +1,41 @@
+img{
+    width: 100%;
+}
+section{
+    margin-top: 20px;
+}
+.receipt_title h2{
+    text-align: right;
+    padding-right: 84px;
+    margin-top: -60px;
+    font-weight: 700;
+}
+thead{
+    border: 1px solid #000;
+}
+
+.member{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.table-bordered tr, .table-bordered td, .table-bordered th {
+    border: none;
+}
+
+.table-bordered {
+    border: 1px solid #000; /* Add the outer border color */
+}
+
+.table-left-bordered {
+    border-left: 1px solid #000; /* Adjust the color as needed */
+}
+
+.declare p{
+    margin: 5px;
+}
+
+.declare h5{
+    margin-top: 40px;
+}
+
